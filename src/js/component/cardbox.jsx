@@ -45,7 +45,7 @@ const Cardbox = () => {
       <div className="d-flex flex-row justify-content-evenly flex-wrap">
         {cardInfo.map((card, index) => {
           return (
-            <div key={index}>
+            <div key={index} className="col-md-3 col-sm-12 p-1">
               <div className="card">
                 <img
                   className="card-img-top"

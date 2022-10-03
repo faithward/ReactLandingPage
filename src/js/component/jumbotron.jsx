@@ -9,7 +9,7 @@ let jumboText = {
 };
 const Jumbotron = () => {
   return (
-    <div className="jumbotron bg-light">
+    <div className="jumbotron bg-light mt-5 p-5 border">
       <h1 className="display-4">{jumboText.title}</h1>
       <p className="lead">{jumboText.description}</p>
       <a

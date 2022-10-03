@@ -6,7 +6,7 @@ import Footer from "./footer.jsx";
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-white">
       <Navbar />
       <div className="container-fluid">
         <Jumbotron />
